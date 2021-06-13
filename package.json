@@ -2,7 +2,8 @@
   "name": "search-string",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://www.mrsoft.by",
+  "proxy": "https://www.mrsoft.by",  
+  "homepage": "https://alexus-bat.github.io/search-string/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
