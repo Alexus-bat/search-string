@@ -28,7 +28,7 @@ const App: React.FC = () => {
 
   const getData = useCallback(async () => {
     try {
-      const response = await fetch('https://www.mrsoft.by/data.json');
+      const response = await fetch('/data.json');
       const {data} = await response.json();
       setData(data);
     } catch (e) {
